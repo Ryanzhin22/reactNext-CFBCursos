@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "topo.css";
+
+.btnPadrao {
+  display: flex;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
