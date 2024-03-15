@@ -48,7 +48,7 @@ function calcDesc(v:number,d:number){
     }
   ]
 
-export default function produtosPagina(){
+export default function ProdutosPagina(){
     const router = useRouter()
     const nome = router.query.nome
     const curso = router.query.curso
